@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Fira Sans', sans-serif; 
+    background-color: rgb(247, 234, 234);
+}
+header{
+      background-color: #0080FF; 
+}
+.logoPrincipal{
+    width: 25vw;
+    margin-top: 15px;
+    margin-left: 15px; 
+}
+.tituloPrincipal{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #0080FF
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+.navegacion {
+    text-align: center;
+}
+.navegacionListaElementos {
+    text-decoration: none;
+    color: white;
+}
+.navegacionLista li {
+    display: inline;  
+}
+
+.imgProductos {
+    margin-top: 50px;
+    text-align: center;
+    color: #0080FF
+}
+.imgProducto {
+    display: inline;
+}
+.imgProducto img{
+    margin-top: 20px;
+    height: 50vh;
+}
+.inicioEventos{
+    margin-top: 50px;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+.tituloEventosIndex{
+    color:#0080FF;
+}
+.parrafoEventosIdex{
+    margin-bottom: 30px;
+}
+.tarjetaEventosIndex {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: inline;
+}
+footer{ 
+    background-color: #0080FF; 
+    color: white;
+}
+.footerWeb{
+    text-align: center; 
+  }
+  .footerDiv{
+    display: inline-block; 
+    width: 0 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    vertical-align: top;
+    color:white;
+  }
+  .ubicacionInicio{
+    color:white;
+  }
+  .footerRedes{
+    list-style-type: none;
+  }
+  .listaRedes {
+    color:white;
+  }
+  .footerLogo{
+    width: 8vw;
+}
+  .footerPie{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
