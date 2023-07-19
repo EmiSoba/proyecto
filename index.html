@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +13,19 @@
         <title>Good Vibes | Inicio</title>
     </head>
     <body>
-        <header><!--use la mismo tipografia en el texto que el logo
-        El logo y favicon los genere con logo.com que es una IA que mostro la profe. Muy buena!!!-->
-            <img class="logoPrincipal" src="./assets/img/good-vibes-logo.png" alt="logo de la pagina">
-            <nav class="navegacion">
-                <ul class="navegacionLista"> 
-                    <li><a class="navegacionListaElementos" href="#">Inicio</a></li>
-                    <li><a class="navegacionListaElementos" href="./pages/productos.html">Productos</a></li>
-                    <li><a class="navegacionListaElementos" href="./pages/nosotros.html">Nosotros</a></li>
-                    <li><a class="navegacionListaElementos" href="./pages/eventos.html">Eventos</a></li>
-                    <li><a class="navegacionListaElementos" href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+      <header class="container-fluid">
+        <a href="#"><img class="logoPrincipal" src="./assets/img/good-vibes-logo.png" alt="logo de la pagina"></a>
+        <nav class="navegacion">
+            <ul class="navegacionLista"> 
+                <li><a class="text-white text-decoration-none" href="#">Inicio</a></li>
+                <li><a class="text-white text-decoration-none" href="../Proyecto/pages/productos.html">Productos</a></li>
+                <li><a class="text-white text-decoration-none" href="../Proyecto/pages/nosotros.html">Nosotros</a></li>
+                <li><a class="text-white text-decoration-none" href="../Proyecto/pages/eventos.html">Eventos</a></li>
+                <li><a class="text-white text-decoration-none" href="../Proyecto/pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
         </header>
-        <main><!-- busque varias opciones en chatgpt como mostro la profe para generar los textos.
+        <main class="container-fluid mb-5"><!-- busque varias opciones en chatgpt como mostro la profe para generar los textos.
         Genere los h1 para todas las paginias del proyecto para que quede mas llamativo.
         Tambien lo textos del index los genere con la IA-->
             <h1 class="tituloPrincipal">Transforma tus espacios con nuestro arte</h1>
@@ -34,38 +34,39 @@
             Esperamos que disfrutes tu visita y encuentres piezas únicas que llenen tu vida de belleza y originalidad. ¡Gracias por elegirnos como tu destino para productos artesanales de calidad!</p>
             
         </main>
-        <div class="imgProductos"><!--como intente representar en los wiframe aca iria un carrusel. Momentanemante solo pongo las imagenes. Luego cuando tenga el conocimiento lo hare.
-        Por ahora si clickas las imagenes te lleva a la pagina de productos.-->
-            <h2>Algunos de los productos de nuestro hermoso catálogo</h2>
-            <div class="imgProducto">
-               <a href="./pages/productos.html">
-                    <img src="./assets/img/ceniceroOjo.png" alt="Cenicero con un ojo">
-               </a> 
-            </div>
-            <div class="imgProducto">
-                <a href="./pages/productos.html">
-                    <img src="./assets/img/cajaColores.png" alt="caja pintada con diseño de muchos colores">
-                </a> 
-            </div>
-            <div class="imgProducto">
-                <a href="./pages/productos.html">
-                    <img src="./assets/img/cajaGatitos.png" alt="caja pintada con diseño de gatos">
-                </a> 
-            </div>
-             <div class="imgProducto">
-                <a href="./pages/productos.html">
-                    <img src="./assets/img/ceniceroVerde.png" alt="Cenicero de color verde">
-                </a> 
-            </div>
-            <div class="imgProducto">
-                <a href="./pages/productos.html">
-                    <img src="./assets/img/cuadroDosGatos.png" alt="cuadro con dos gatos blanco y negro">
-                </a> 
-            </div>
-            <div class="imgProducto">
-                <a href="./pages/productos.html">
-                    <img src="./assets/img/cuadroGatitos.png" alt="3 cuadros con gatitos">
-                </a> 
+        <div class="container mb-5">
+            <h2 class="text-center mb-5">Algunos de los productos de nuestro hermoso catálogo</h2>
+            <div class="row">
+                <div class="col-md-4 col-12 mb-4">
+                    <a href="./pages/productos.html">
+                         <img src="./assets/img/ceniceroOjo.png" alt="Cenicero con un ojo">
+                    </a> 
+                 </div>
+                 <div class="col-md-4 col-12 mb-4">
+                     <a href="./pages/productos.html">
+                         <img src="./assets/img/cajaColores.png" alt="caja pintada con diseño de muchos colores">
+                     </a> 
+                 </div>
+                 <div class="col-md-4 col-12 mb-4">
+                     <a href="./pages/productos.html">
+                         <img src="./assets/img/cajaGatitos.png" alt="caja pintada con diseño de gatos">
+                     </a> 
+                 </div>
+                  <div class="col-md-4 col-12 mb-4">
+                     <a href="./pages/productos.html">
+                         <img src="./assets/img/ceniceroVerde.png" alt="Cenicero de color verde">
+                     </a> 
+                 </div>
+                 <div class="col-md-4 col-12 mb-4">
+                     <a href="./pages/productos.html">
+                         <img src="./assets/img/cuadroDosGatos.png" alt="cuadro con dos gatos blanco y negro">
+                     </a> 
+                 </div>
+                 <div class="col-md-4 col-12 mb-4">
+                     <a href="./pages/productos.html">
+                         <img src="./assets/img/cuadroGatitos.png" alt="3 cuadros con gatitos">
+                     </a> 
+                 </div>
             </div>
         </div>
         <div class="inicioEventos"><!--aca intento hacer lo que seria una especie de tarjeta como hice en el wiframe. La idea de los 3 divs es esa que quede todo junto en una tarjeta.-->
@@ -80,38 +81,40 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.7488389959512!2d-53.78076967402639!3d-34.40302399689633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95736b23496d90b1%3A0x6e0457ef1e48bc96!2sAldea%20Infinita%20Museo%20Cabo%20Polonio!5e0!3m2!1ses-419!2suy!4v1687301994765!5m2!1ses-419!2suy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <footer><!--El footer de mi web va a ser identico al del wiframe. Me gusto mucho el diseño que hice.
-        La idea es poner el logo a la izquierda y debajo los inconos de las redes sociales.
-        Luego la direccion en texto pero si lo clickas te lleve al mapa. Eso ya lo hice.-->
-            <div class="footerWeb">
-              <div class="footerDiv">
-                <h4>Horarios</h4>
-                <p>Lun - Vie: 8:00 - 18:00</p>
-                <p>Sáb: 9:00 - 13:00</p>
-              </div>
-              <div class="footerDiv">
-                <a class="ubicacionInicio" target="_blank" href="https://goo.gl/maps/WptMKA4um2Ut27NH6">
+        <footer class="footer">
+            <div class="container py-4">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 text-center text-md-left">
+                  <h4>Horarios</h4>
+                  <p>Lun - Vie: 8:00 - 18:00</p>
+                  <p>Sáb: 9:00 - 13:00</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center text-md-left">
+                  <a class="text-white no-underline" target="_blank" href="https://goo.gl/maps/WptMKA4um2Ut27NH6">
                     <h4>Dirección</h4>
                     <p>Playa La Calavera</p>
                     <p>Rocha, Cabo Polonio</p>
-                </a>
+                  </a>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center text-md-left">
+                  <h4>Redes Sociales</h4>
+                  <ul class="list-unstyled">
+                    <li><a class="text-white no-underline" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a class="text-white no-underline" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a class="text-white no-underline" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a class="text-white no-underline" href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                  <img class="img-fluid" src="./assets/img/logofooter.png" alt="carita feliz logo">
+                </div>
               </div>
-              <div class="footerDiv">
-                <h4>Redes Sociales</h4>
-                <ul class="footerRedes">
-                  <li><a class="listaRedes" href="https://www.Facebook.com" target="_blank">Facebook</a></li>
-                  <li><a class="listaRedes" href="https://www.Instagram.com" target="_blank">Instagram</i></a></li>
-                  <li><a class="listaRedes" href="https://www.Twiter.com" target="_blank">Twiter</i></a></li>
-                  <li><a class="listaRedes" href="https://www.Linkedin.com" target="_blank">Linkedin</i></a></li>
-                </ul>
-              </div>
-              <div class="footerDiv">
-                <img class="footerLogo" src="./assets/img/logofooter.png" alt="carita feliz logo">
             </div>
-            </div>
-            <div class="footerPie">
-              <p>Todos los derechos reservados &copy; 2023</p>
+            <div class="bg-primary text-center py-2">
+              <p class="m-0">Todos los derechos reservados &copy; 2023</p>
             </div>
           </footer>
+          
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

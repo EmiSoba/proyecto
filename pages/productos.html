@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,104 +13,135 @@
         <title>Productos | Good Vibes</title>
     </head>
     <body>
-        <header>
+        <header class="container-fluid">
             <a href="../index.html"><img class="logoPrincipal" src="../assets/img/good-vibes-logo.png" alt="logo de la pagina"></a>
             <nav class="navegacion">
                 <ul class="navegacionLista"> 
-                    <li><a class="navegacionListaElementos" href="../index.html">Inicio</a></li>
-                    <li><a class="navegacionListaElementos" href="#">Productos</a></li>
-                    <li><a class="navegacionListaElementos" href="./nosotros.html">Nosotros</a></li>
-                    <li><a class="navegacionListaElementos" href="./eventos.html">Eventos</a></li>
-                    <li><a class="navegacionListaElementos" href="./contacto.html">Contacto</a></li>
+                    <li><a class="text-white text-decoration-none" href="../index.html">Inicio</a></li>
+                    <li><a class="text-white text-decoration-none" href="#">Productos</a></li>
+                    <li><a class="text-white text-decoration-none" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="text-white text-decoration-none" href="./eventos.html">Eventos</a></li>
+                    <li><a class="text-white text-decoration-none" href="./contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <h1>Productos</h1>
-            <div class="catalogoProductos"> 
-                <h2>Explora nuestra galería de creaciones artesanales. Diseños únicos que cautivan</h2>
-                <div class="tarjetaProducto">
-                    <img src="../assets/img/productos.png" alt="desc img 1" loading="lazy">
-                    <h3>Producto 1</h3>
-                    <p>$200</p>
-                    <a target="_blank" href="https://www.mercadopago.com.uy/home">
-                        <button>Comprar</button>
-                    </a>
+        <main class="container my-4">
+            <h1 class="text-center">Productos</h1>
+            <div class="catalogoProductos">
+              <h2 class="text-center">Explora nuestra galería de creaciones artesanales. Diseños únicos que cautivan</h2>
+              <div class="row justify-content-between">
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <img src="../assets/img/cuadroPerro.jpg" class="card-img-top img-fluid" alt="desc img 1" loading="lazy">
+                    <div class="card-body">
+                      <h3 class="card-title">Cuadro Perrito</h3>
+                      <p class="card-text text-center">$3500</p>
+                      <div class="text-center">
+                        <a href="https://www.mercadopago.com.uy/home" target="_blank" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="tarjetaProducto">
-                    <img src="../assets/img/productos.png" alt="desc img 2" loading="lazy">
-                    <h3>Producto 2</h3>
-                    <p>$200</p>
-                    <a target="_blank" href="https://www.mercadopago.com.uy/home">
-                        <button>Comprar</button>
-                    </a>
-                 </div>
-                <div class="tarjetaProducto">
-                     <img src="../assets/img/productos.png" alt="desc img 3" loading="lazy">
-                     <h3>Producto 3</h3>
-                     <p>$200</p>
-                    <a target="_blank" href="https://www.mercadopago.com.uy/home">
-                         <button>Comprar</button>
-                     </a>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <img src="../assets/img/CuadroManos.jpg" class="card-img-top img-fluid" alt="desc img 2" loading="lazy">
+                    <div class="card-body">
+                      <h3 class="card-title">Cuadro Manos</h3>
+                      <p class="card-text text-center">$2290</p>
+                      <div class="text-center">
+                        <a href="https://www.mercadopago.com.uy/home" target="_blank" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                 <div class="tarjetaProducto">
-                     <img src="../assets/img/productos.png" alt="desc img 4" loading="lazy">
-                     <h3>Producto 4</h3>
-                      <p>$200</p>
-                      <a target="_blank" href="https://www.mercadopago.com.uy/home">
-                         <button>Comprar</button>
-                     </a>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <img src="../assets/img/cuadroPueblo.jpg" class="card-img-top img-fluid" alt="desc img 3" loading="lazy">
+                    <div class="card-body">
+                      <h3 class="card-title">Cuadro Pueblo</h3>
+                      <p class="card-text text-center">$1890</p>
+                      <div class="text-center">
+                        <a href="https://www.mercadopago.com.uy/home" target="_blank" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="tarjetaProducto">
-                    <img src="../assets/img/productos.png" alt="desc img 5" loading="lazy">
-                    <h3>Producto 5</h3>
-                    <p>$200</p>
-                    <a target="_blank" href="https://www.mercadopago.com.uy/home">
-                       <button>Comprar</button>
-                    </a>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <img src="../assets/img/cuadroMandala.jpg" class="card-img-top img-fluid" alt="desc img 4" loading="lazy">
+                    <div class="card-body">
+                      <h3 class="card-title">Cuadro Mandala</h3>
+                      <p class="card-text text-center">$3300</p>
+                      <div class="text-center">
+                        <a href="https://www.mercadopago.com.uy/home" target="_blank" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="tarjetaProducto">
-                    <img src="../assets/img/productos.png" alt="desc img 6" loading="lazy">
-                    <h3>Producto 6</h3>
-                    <p>$200</p>
-                    <a target="_blank" href="https://www.mercadopago.com.uy/home">
-                        <button>Comprar</button>
-                    </a>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <img src="../assets/img/cuadroCiudad.jpg" class="card-img-top img-fluid" alt="desc img 5" loading="lazy">
+                    <div class="card-body">
+                      <h3 class="card-title">Cuadro Ciudad</h3>
+                      <p class="card-text text-center">$899</p>
+                      <div class="text-center">
+                        <a href="https://www.mercadopago.com.uy/home" target="_blank" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <img src="../assets/img/cuadroFlor.jpg" class="card-img-top img-fluid" alt="desc img 6" loading="lazy">
+                    <div class="card-body">
+                      <h3 class="card-title">Cuadro Flor</h3>
+                      <p class="card-text text-center">$2300</p>
+                      <div class="text-center">
+                        <a href="https://www.mercadopago.com.uy/home" target="_blank" class="btn btn-primary">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </main>
-        <footer><!--El footer de mi web va a ser identico al del wiframe. Me gusto mucho el diseño que hice.
-            La idea es poner el logo a la izquierda y debajo los inconos de las redes sociales.
-            Luego la direccion en texto pero si lo clickas te lleve al mapa. Eso ya lo hice.-->
-                <div class="footerWeb">
-                  <div class="footerDiv">
-                    <h4>Horarios</h4>
-                    <p>Lun - Vie: 8:00 - 18:00</p>
-                    <p>Sáb: 9:00 - 13:00</p>
-                  </div>
-                  <div class="footerDiv">
-                    <a class="ubicacionInicio" target="_blank" href="https://goo.gl/maps/WptMKA4um2Ut27NH6">
-                        <h4>Dirección</h4>
-                        <p>Playa La Calavera</p>
-                        <p>Rocha, Cabo Polonio</p>
-                    </a>
-                  </div>
-                  <div class="footerDiv">
-                    <h4>Redes Sociales</h4>
-                    <ul class="footerRedes">
-                      <li><a class="listaRedes" href="https://www.Facebook.com" target="_blank">Facebook</a></li>
-                      <li><a class="listaRedes" href="https://www.Instagram.com" target="_blank">Instagram</i></a></li>
-                      <li><a class="listaRedes" href="https://www.Twiter.com" target="_blank">Twiter</i></a></li>
-                      <li><a class="listaRedes" href="https://www.Linkedin.com" target="_blank">Linkedin</i></a></li>
-                    </ul>
-                  </div>
-                  <div class="footerDiv">
-                    <img class="footerLogo" src="../assets/img/logofooter.png" alt="carita feliz logo">
+          </main>
+          
+          
+           
+          
+        <footer class="footer">
+            <div class="container py-4">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 text-center text-md-left">
+                  <h4>Horarios</h4>
+                  <p>Lun - Vie: 8:00 - 18:00</p>
+                  <p>Sáb: 9:00 - 13:00</p>
                 </div>
+                <div class="col-md-3 col-sm-6 text-center text-md-left">
+                  <a class="text-white no-underline" target="_blank" href="https://goo.gl/maps/WptMKA4um2Ut27NH6">
+                    <h4>Dirección</h4>
+                    <p>Playa La Calavera</p>
+                    <p>Rocha, Cabo Polonio</p>
+                  </a>
                 </div>
-                <div class="footerPie">
-                  <p>Todos los derechos reservados &copy; 2023</p>
+                <div class="col-md-3 col-sm-6 text-center text-md-left">
+                  <h4>Redes Sociales</h4>
+                  <ul class="list-unstyled">
+                    <li><a class="text-white no-underline" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a class="text-white no-underline" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a class="text-white no-underline" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li><a class="text-white no-underline" href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                  </ul>
                 </div>
-        </footer>
+                <div class="col-md-3 col-sm-6 text-center">
+                  <img class="img-fluid" src="../assets/img/logofooter.png" alt="carita feliz logo">
+                </div>
+              </div>
+            </div>
+            <div class="bg-primary text-center py-2">
+              <p class="m-0">Todos los derechos reservados &copy; 2023</p>
+            </div>
+          </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
