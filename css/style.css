@@ -11,10 +11,8 @@ body{
 header{
       background-color: #0080FF; 
 }
-.logoPrincipal{
-    width: 25vw;
-    margin-top: 15px;
-    margin-left: 15px; 
+.navbar-toggler{
+  background-color: white;
 }
 .tituloPrincipal{
     text-align: center;
@@ -37,16 +35,8 @@ p{
     display: inline;  
 }
 
-.inicioEventos{
-    margin-top: 50px;
-    text-align: center; 
-    margin-bottom: 20px;
-}
 .tituloEventosIndex{
     color:#0080FF;
-}
-.parrafoEventosIdex{
-    margin-bottom: 30px;
 }
 .tarjetaEventosIndex {
     margin-top: 30px;
@@ -67,20 +57,29 @@ p{
     object-fit: cover;
   }
   
-  .footer {
+  footer {
     background-color: #0080FF;
     color: white;
   }
-  
-  .footer a {
+  .text-underline-hover{
+    text-color
     text-decoration: none;
   }
-  
-  .footer a:hover {
-    color: #0A2746;
+  .text-underline-hover:hover {
     text-decoration: underline;
   }
-  
+  footer img {
+    width: 30px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    transition: transform 0.5s ease; }
+ footer img:hover {
+      transform: rotate(-30deg);
+      transition: transform 0.5s ease; }
+ .logoFooter{
+  width:100px;
+ }
  /* Estilos generales para todas las pantallas */
 .card {
     max-width: 540px;
