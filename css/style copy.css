@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Fira Sans', sans-serif; 
+    font-weight: normal;
+}
+header{
+      background-color: #0080FF; 
+}
+.navbar-toggler{
+  background-color: white;
+}
+.tituloPrincipal{
+    color: #0080FF
+}
+.tituloEventosIndex{
+    color:#0080FF;
+}
+  .card-img-top {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  footer {
+    background-color: #0080FF;
+    color: white;
+  }
+  .text-underline-hover{
+    text-decoration: none;
+  }
+  .text-underline-hover:hover {
+    text-decoration: underline;
+  }
+  footer img {
+    width: 30px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    transition: transform 0.5s ease; }
+
+ footer img:hover {
+      transform: rotate(-30deg);
+      transition: transform 0.5s ease; }
+ .logoFooter{
+  width:100px;
+ }  
+  /* Media query para pantallas grandes (lg) */
+  @media (max-width: 1199.98px) {
+    .btn.btn-primary {
+        font-size: 14px;
+        padding: 6px 12px;
+      }
+  }
+  
+  /* Media query para pantallas medianas (md) */
+  @media (max-width: 991.98px) {
+      .btn.btn-primary {
+        font-size: 12px;
+        padding: 4px 8px;
+      }
+  }
+  
+  /* Media query para pantallas pequeñas (sm) */
+  @media (max-width: 767.98px) {
+.card-text.text-center {
+    .tarjetaEventosIndex {
+      flex-direction: row;
+      gap: 10px;
+    }
+  }
+}
+ 
+  
