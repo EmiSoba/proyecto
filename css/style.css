@@ -10,13 +10,6 @@ body {
   font-family: "Fira Sans", sans-serif;
 }
 
-header {
-  background-color: #0080FF;
-}
-header .navbar-toggler {
-  background-color: white;
-}
-
 .tituloPrincipal {
   color: #0080FF;
 }
@@ -33,6 +26,34 @@ header .navbar-toggler {
 
 .text-underline-hover:hover {
   text-decoration: underline;
+}
+
+/* Media query para pantallas grandes (lg) */
+@media (max-width: 1199.98px) {
+  .btn.btn-primary {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+}
+/* Media query para pantallas medianas (md) */
+@media (max-width: 991.98px) {
+  .btn.btn-primary {
+    font-size: 16px;
+    padding: 4px 8px;
+  }
+}
+/* Media query para pantallas pequeñas (sm) */
+@media (max-width: 767.98px) {
+  .card-text.text-center .tarjetaEventosIndex {
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+header {
+  background-color: #0080FF;
+}
+header .navbar-toggler {
+  background-color: white;
 }
 
 footer {

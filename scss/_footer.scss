@@ -1,0 +1,15 @@
+footer {
+    background-color: $color-primario;
+    color: $color-secundario;
+    img {
+        width: $tamanio-img-footer;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        transition: $transition-footer
+     }
+  }
+  
+ footer img:hover {//intente hacer anidacion pero por mas que pongo &:hover el visual me tira error.
+      transform: $transform-footer;
+      transition: $transition-footer }

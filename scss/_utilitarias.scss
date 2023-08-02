@@ -1,14 +1,18 @@
-@import 'variables.scss';
-@import 'reset.scss';
-@import 'utilitarias.scss';
-@import 'header.scss';
-@import 'footer.scss';
+.tituloPrincipal{
+    color: $color-primario;
+}
 
-
-
-
-  
-
+  .card-img-top {
+    width: $width-img-card;
+    height: $height-img-card;
+    object-fit: $escala-img-card;
+  }
+  .text-underline-hover{
+    text-decoration: $decoracion-texto;
+  }
+  .text-underline-hover:hover {
+    text-decoration: $decoracion-hover;
+  }
   /* Media query para pantallas grandes (lg) */
   @media (max-width: 1199.98px) {
     .btn.btn-primary {
